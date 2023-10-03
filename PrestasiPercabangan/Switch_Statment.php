@@ -2,17 +2,17 @@
 
 $nilai = "A";
 
-switch($nilai){
+switch ($nilai) {
     case "A":
-        echo "Selamat anda lulus dengan baik" . PHP_EOL;
+        echo "Anda lulus dengan baik" . PHP_EOL;
         break;
     case "B":
     case "C":
-        echo "anda lulus" . PHP_EOL;
+        echo "Anda lulus" . PHP_EOL;
         break;
     case "D":
-        echo "anda tidak lulus" . PHP_EOL;
+        echo "Anda tidak lulus" . PHP_EOL;
         break;
-    default;
-        echo "Coba Lagi" . PHP_EOL;
+    default:
+        echo "Coba lagi" . PHP_EOL;
 } 
