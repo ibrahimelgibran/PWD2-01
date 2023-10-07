@@ -1,3 +1,3 @@
 <?php
 
-echo "Berhasil";
+echo "Berhasil Login!";

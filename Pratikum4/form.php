@@ -6,12 +6,10 @@
     <title>Form Login</title>
 </head>
 <body>
-    <form action="login.php" method="POST">
-        <label for="username">Username:</label>
-            <input type="text" name="username" id="username"><br>    
-            <label for="password">Password:</label>
-            <input type="password" name="password" id="password"><br>
-        <button type="submit">Sumbit</button>
+    <form action="./login.php" method="post">
+          <input type="text" name="username" id="username">
+          <input type="password" name="password" id="password">
+        <button type="submit">Login</button>
     </form>
 </body>
 </html>

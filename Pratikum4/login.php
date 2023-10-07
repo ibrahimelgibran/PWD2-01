@@ -1,20 +1,19 @@
 <?php
 
-include 'config.php';
+include './config.php';
 
 $username = $_POST['username'];
 $password = $_POST['password'];
 
 if(!empty($username) && !empty($password)){
-    $query =  mysqli_query($koneksi, "select * from user where username='$username' and password='$password'");
-
+    $query =  mysqli_query($koneksi, "SELECT * FROM `tb_user` WHERE username='$username' AND password='$password'");
     $result = mysqli_num_rows($query);
 
         if($result>0){
-            header("localhost:./dashboard.php/form.php");
+            header("location: dashboard.php");
         } else{
-            header("localhost:./form.php?app=gagal");
+            header("location: ./form.php?app=gagal");
         }
-} else{
-    header("localhost:./form.php?app=error");
-}
+    } else {
+        header("localtion: ./form.php?app=error");
+    }
