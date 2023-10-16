@@ -33,6 +33,7 @@
                     <td class="kecilin"><label for="skill_dosen">Skill Dosen</label></td>
                     <td class="td">: 
                         <select name="skill_dosen">
+                            <option>Programming IT</option>
                             <option>Nyuntik Pasta Prosesor</option>
                             <option>Ngerawat Virus</option>
                             <option>Operasi Casing</option>

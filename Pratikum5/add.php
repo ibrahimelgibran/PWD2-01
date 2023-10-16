@@ -2,6 +2,9 @@
 
 require_once 'config.php';
 
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
 // cek tombol daftar
 if(isset($_POST['daftar'])){
     // ambil data dari form
