@@ -69,8 +69,8 @@
                 echo "<td>" . $dosen['jkl_dos'] . "</td>";
                 echo "<td>" . $dosen['skl_dos'] . "</td>";
                 echo "<td>";
-                echo "<a href='../form/form_edit_dosen.php?nik=" . $dosen['nik_dos'] . "'>Edit</a> | ";
-                echo "<a href='../controller/ctrl_hapus.php?nik=" . $dosen['nik_dos'] . "'>Hapus</a>";
+                echo "<a href='./form_edit_data.php?nik=" . $dosen['nik_dos'] . "'>Edit</a> | ";
+                echo "<a href='./ctrl_delete_data.php?nik=" . $dosen['nik_dos'] . "'>Hapus</a>";
                 echo "</td>";
                 echo "</tr>";
                 $nomor++;
