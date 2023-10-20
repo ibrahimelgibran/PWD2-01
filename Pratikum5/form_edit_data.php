@@ -49,6 +49,7 @@ if( mysqli_num_rows($sql) < 1 ){
                 <label for="skill_dosen">Skill: </label>
                 <?php $skill = $dosen['skl_dos']; ?>
                 <select name="skill_dosen">
+                    <option <?php echo ($skill == 'Nyuntik Pasta Prosesor') ? "selected": ""?>>Mobile Dev</option>
                     <option <?php echo ($skill == 'Nyuntik Pasta Prosesor') ? "selected": ""?>>Nyuntik</option>
                     <option <?php echo ($skill == 'Ngerawat Virus') ? "selected": "" ?>>Ngerawat</option>
                     <option <?php echo ($skill == 'Operasi Casing') ? "selected": "" ?>>Operasi</option>

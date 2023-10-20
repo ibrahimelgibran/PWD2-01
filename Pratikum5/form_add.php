@@ -12,7 +12,7 @@
                 <tr>
                     <td class="kecilin"><label for="nik">NIK</label></td>
                     <td class=""td>: <input class="input" type="text" name="nik" placeholder="Masukan Nik" /></td>
-                    <td rowspan="5"><img src="https://static.vecteezy.com/system/resources/previews/003/181/127/original/cute-chibi-boy-in-dino-costume-illustration-free-vector.jpg" class="image" alt="Ibrahim El Gibran"  width="100%" style="border-radius: 50%;"></td>
+                    <td rowspan="5"><img src="img/me.png" class="image" alt="Ibrahim El Gibran"  width="100%" style="border-radius: 50%;"></td>
                 </tr>
                 <tr>
                     <td class="kecilin"><label for="nama_dosen">Nama Dosen</label></td>

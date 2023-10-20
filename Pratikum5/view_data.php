@@ -64,7 +64,7 @@
                 echo "<tr>";
                 echo "<td>" . $nomor . "</td>";
                 echo "<td hidden>" . $dosen['nik_dos'] . "</td>";
-                echo "<td>" . $dosen['nm_dos'] . "</td>";
+                echo "<td style='display: flex; align-items: center;'>" . $dosen['nm_dos' ] .  "<img src='./img/me.png' alt='Gambar' width='50' height='50' style='border-radius: 100%; margin-left: 2%;'>" ."</td>";
                 echo "<td>" . $dosen['almt_dos'] . "</td>";
                 echo "<td>" . $dosen['jkl_dos'] . "</td>";
                 echo "<td>" . $dosen['skl_dos'] . "</td>";
