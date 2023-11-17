@@ -42,7 +42,7 @@
 
 <body>
     <table>
-
+    <input style="background-color: #DDA0DD;" class="btn btn-sm" type="button" value="Tambah Data" onclick="window.location.href='./form_add.php'" />
         <thead>
             <tr class="tr">
                 <th class="satu">No</th>

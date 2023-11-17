@@ -44,6 +44,7 @@
                     <td colspan="2">
                         <input style="background-color: #DDA0DD;" class="btn btn-sm" type="submit" value="Tambah" name="daftar" />
                         <input style="background-color: #DDA0DD;" class="btn btn-sm" type="button" value="Gak Jadi" onclick="window.location.href='./gajadi.php'" />
+                        <input style="background-color: #DDA0DD;" class="btn btn-sm" type="button" value="Cek View Data" onclick="window.location.href='./view_data.php'" />
                     </td>
                     <td></td>
                 </tr>
